@@ -1,0 +1,6 @@
+# import streamlit 
+# import google-generativeai
+# Generate API key
+
+streamlit
+google-generativeai
