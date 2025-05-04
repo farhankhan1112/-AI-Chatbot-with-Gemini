@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key=" Enter your API key")
+genai.configure(api_key=" AIzaSyDW4RG9mQM-2chVL0UJhuhCGE3VmlRuq7A")
 
 # List available models
 models = genai.list_models()
@@ -12,7 +12,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="Enter your API key")
+genai.configure(api_key="AIzaSyDW4RG9mQM-2chVL0UJhuhCGE3VmlRuq7A")
 
 model = genai.GenerativeModel("gemini-1.5-pro")  # Replace with your available model name
 
