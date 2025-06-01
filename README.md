@@ -2,14 +2,42 @@
 
 This is a simple AI chatbot built using Google Generative AI (Gemini) and Streamlit. The chatbot allows users to ask questions and receive AI-generated responses.
 
+# Project interface: 
+- Interactive chat interface
+- Powered by Gemini AI for natural language understanding
+- Easy-to-use 
+
 ![Alt text](https://github.com/farhankhan1112/AI-Chatbot-with-GenAI/blob/17e75b3692fba2f88f7cd4e050160436fe99a740/Images/project%20inerface.png)
 
+# project output :
+![Alt text](https://github.com/farhankhan1112/AI-Chatbot-with-GenAI/blob/17e75b3692fba2f88f7cd4e050160436fe99a740/Images/project%20output.png)
+
+# 1️⃣ User Input : 
+- The user types a message or question in the chatbot interface (Your message text box).
+- Example: "How are you?"
+
+# 2️⃣ API Call to Gemini :
+- When the user sends a message, the backend code makes an API call to Google Gemini (via Gemini API).
+- The input message is sent as a prompt to the Gemini API for generating a response.
+
+# 3️⃣ AI Response Generation :
+- The Gemini API processes the input and generates a relevant response based on its large language model (LLM).
+- Example Response: "I'm doing well, thank you for asking! How are you today?"
+
+# 4️⃣ Display Response :
+- The AI-generated response is displayed in the chat interface.
+- The user sees a conversational reply, just like chatting with an AI assistant.
 
 ## Features
 - Uses Google Generative AI (Gemini) for natural language processing
 - Streamlit-based UI for easy interaction
 - Maintains chat history within a session
 - Simple and lightweight implementation
+
+## Technology used : 
+- Python
+- Streamlit
+- Generative AI
 
 ## Requirements
 - Python 3.8+
