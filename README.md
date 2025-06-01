@@ -2,7 +2,7 @@
 
 This is a simple AI chatbot built using Google Generative AI (Gemini) and Streamlit. The chatbot allows users to ask questions and receive AI-generated responses.
 
-![Alt text](image-url)
+![Alt text](https://github.com/farhankhan1112/AI-Chatbot-with-GenAI/blob/17e75b3692fba2f88f7cd4e050160436fe99a740/Images/project%20inerface.png)
 
 
 ## Features
