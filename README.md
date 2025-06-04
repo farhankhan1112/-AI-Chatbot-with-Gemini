@@ -1,6 +1,7 @@
 # AI Chatbot with Gemini
 
-This is a simple AI chatbot built using Google Generative AI (Gemini) and Streamlit. The chatbot allows users to ask questions and receive AI-generated responses.
+- This is a simple **AI chatbot** built using **Google Generative AI (Gemini)** and **Streamlit**. The chatbot leverages a **Large Language Model (LLM)** to understand user questions and 
+ generate intelligent, context-aware AI responses in real-time.
 
 # Project interface: 
 - Interactive chat interface
