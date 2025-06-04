@@ -28,23 +28,27 @@ This is a simple AI chatbot built using Google Generative AI (Gemini) and Stream
 - The AI-generated response is displayed in the chat interface.
 - The user sees a conversational reply, just like chatting with an AI assistant.
 
-## Features
-- Uses Google Generative AI (Gemini) for natural language processing
-- Streamlit-based UI for easy interaction
-- Maintains chat history within a session
-- Simple and lightweight implementation
+# 🛠️ Technologies Used in the AI Chatbot Project
+- 👨‍💻 Programming Language: Python
 
-## Technology used : 
-- Python
-- Streamlit
-- Generative AI
+- 🌐 Web Framework: Streamlit
 
-## Requirements
+- 🧠 Large Language Model (LLM): Gemini 1.5 Pro (via Google Generative AI API)
+
+- 🔌 API Integration: Google Generative AI (for using Gemini LLM)
+
+- 💬 Chat UI: Streamlit chat_message() for chat-style interface
+
+- 🗂️ State Management: Streamlit session_state (to store chat history)
+
+- 🔐 Authentication: API Key for Google Generative AI
+
+# Requirements
 - Python 3.8+
 - Streamlit
 - Google Generative AI SDK
 
-## Installation
+#Installation
 1. Clone this repository or download the source code.
 2. Install the required dependencies:
    ```sh
@@ -53,20 +57,20 @@ This is a simple AI chatbot built using Google Generative AI (Gemini) and Stream
 3. Obtain a Google Generative AI API key from [Google AI](https://ai.google.dev/)
 4. Replace `api_key` in the script with your API key.
 
-## Usage
+# Usage
 Run the chatbot using the following command:
 ```sh
 streamlit run app.py
 ```
 Then, open the provided local URL in your browser and start chatting.
 
-## Code Explanation
+# Code Explanation
 - The script initializes the Gemini AI model using an API key.
 - It sets up a Streamlit UI with an input field and chat history.
 - User inputs are processed, and responses are generated using Gemini AI.
 - The chat history is stored in the session state to maintain continuity.
 
-## Notes
+# Notes
 - Ensure that your API key is valid and has the necessary permissions.
 - This chatbot is intended for basic interactions and may require modifications for advanced use cases.
 
